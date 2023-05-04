@@ -1,0 +1,94 @@
+
+h1{
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    text-decoration-line: overline;
+}
+h3 , .boton {
+    text-align: center;
+    position: relative;
+    right: 30px;
+
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+nav{
+    background-image: url('./src/fondo.jpg');
+    background-repeat: repeat-x;
+    background-size: 33% 185%;
+    height: 100px;
+    color: white;
+    display: flex;
+    
+    
+}
+ul{
+    display: flex;
+    position: relative;
+    top: 60px;
+    right: 90px;
+   
+
+}
+ul li{
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.secciones{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    width: 250px;
+    height: 350px;
+    margin: 0 20px;
+}
+.box img{
+    width: 225px;
+    height: 180px;
+}
+p   {
+    display: inline-block;
+    text-align: center;
+}
+.contenedor_form{
+    display: grid;
+    justify-content: center;
+}
+
+.form1{
+    padding-left: 40px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.form2{
+    padding-left: 40px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.boton{
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    background-image: url('./src/fondo.jpg');
+    background-size: 80%;
+    text-align: center;
+    height: 180px;
+    color: white;
+}
+footer p{
+    position: relative;
+    top: 100px;
+}
